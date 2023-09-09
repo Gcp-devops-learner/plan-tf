@@ -1,0 +1,47 @@
+[
+  {
+    "Key": "",
+    "Dir": "."
+  },
+  {
+    "Key": "bastion",
+    "Source": "registry.terraform.io/terraform-google-modules/bastion-host/google",
+    "Version": "5.3.0",
+    "Dir": ".terraform/modules/bastion"
+  },
+  {
+    "Key": "bastion.iap_tunneling",
+    "Source": "./modules/iap-tunneling",
+    "Dir": ".terraform/modules/bastion/modules/iap-tunneling"
+  },
+  {
+    "Key": "bastion.instance_template",
+    "Source": "registry.terraform.io/terraform-google-modules/vm/google//modules/instance_template",
+    "Version": "7.9.0",
+    "Dir": ".terraform/modules/bastion.instance_template/modules/instance_template"
+  },
+  {
+    "Key": "cloud-nat",
+    "Source": "registry.terraform.io/terraform-google-modules/cloud-nat/google",
+    "Version": "1.4.0",
+    "Dir": ".terraform/modules/cloud-nat"
+  },
+  {
+    "Key": "enabled_google_apis",
+    "Source": "registry.terraform.io/terraform-google-modules/project-factory/google//modules/project_services",
+    "Version": "14.2.0",
+    "Dir": ".terraform/modules/enabled_google_apis/modules/project_services"
+  },
+  {
+    "Key": "gke",
+    "Source": "registry.terraform.io/terraform-google-modules/kubernetes-engine/google//modules/beta-autopilot-private-cluster",
+    "Version": "26.0.0",
+    "Dir": ".terraform/modules/gke/modules/beta-autopilot-private-cluster"
+  },
+  {
+    "Key": "kms",
+    "Source": "registry.terraform.io/terraform-google-modules/kms/google",
+    "Version": "2.2.2",
+    "Dir": ".terraform/modules/kms"
+  }
+]
